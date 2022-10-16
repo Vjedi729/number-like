@@ -1,0 +1,20 @@
+{
+  "name": "@goggles/number-like",
+  "version": "0.0.9",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vjedi729/number-like.git"
+  },
+  "keywords": [],
+  "author": "Vishal Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vjedi729/number-like/issues"
+  },
+  "homepage": "https://github.com/Vjedi729/number-like#readme",
+  "description": "A system for objects that can be added, subtracted, multiplied, etc."
+}
