@@ -1,6 +1,6 @@
 {
   "name": "@goggles/number-like",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,8 @@
     "url": "https://github.com/Vjedi729/number-like/issues"
   },
   "homepage": "https://github.com/Vjedi729/number-like#readme",
-  "description": "A system for objects that can be added, subtracted, multiplied, etc."
+  "description": "A system for objects that can be added, subtracted, multiplied, etc.",
+  "dependencies": {
+    "console": "^0.7.2"
+  }
 }
