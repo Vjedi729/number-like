@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Vjedi729/number-like#readme",
   "description": "A system for objects that can be added, subtracted, multiplied, etc.",
   "dependencies": {
+    "@goggles/unit-system": "^1.0.0",
     "console": "^0.7.2"
   }
 }

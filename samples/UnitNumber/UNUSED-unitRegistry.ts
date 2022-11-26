@@ -1,5 +1,4 @@
-import { Unit } from "../Units/unit";
-import noneUnit from "./noneUnit";
+import Unit, {NoneUnit} from "@goggles/unit-system";
 
 export default class UnitRegistry {
     private static instance?: UnitRegistry = undefined
@@ -13,7 +12,7 @@ export default class UnitRegistry {
     public defaultUnit: Unit;
 
     private constructor(){
-        this.defaultUnit = noneUnit
+        this.defaultUnit = NoneUnit
         
         this.registry = {}
     }
