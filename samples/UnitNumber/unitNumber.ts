@@ -1,6 +1,6 @@
 import { NumberLike } from "../../numberLike";
 import Unit, {CombinationUnit, NoneUnit} from '@goggles/unit-system';
-class UnitNumber implements NumberLike<UnitNumber> {
+export class UnitNumber implements NumberLike<UnitNumber> {
     readonly amount: number;
     readonly unit: Unit;
 
